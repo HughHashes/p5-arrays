@@ -1,4 +1,6 @@
-var words = ["bad CHOICE", "Annoying VOICE", "No HUSTLE", "Can't Be OPTIMISTIC about him", "Wouldn't CONSIDER hiring him", "JK JK JK", "SIKE I Lied", "Less GRIT then the lakers"]
+//This is a joke Mr. Budi is actually a great teacher who we are lucky to have work here.
+
+var words = ["bad CHOICE", "Annoying VOICE", "No HUSTLE", "Can't Be OPTIMISTIC about him", "Wouldn't CONSIDER hiring him", "JK JK JK", "SIKE I Lied", "Less GRIT then the lakers", "This is a joke Mr. Budi is actually a great teacher who we are lucky to have work here."]
 
 var j = 0;
 
@@ -24,12 +26,12 @@ function draw(){
     background(0);
     
     for(var i = 0; i < 5; i++){
-        image(images[i],(i+1)*100, 200, 100, 100);
+        image(images[i],(i)*110, 200, 100, 100);
     }
     
     fill(255);
-    textSize(25);
-    text(words[j], 200, 150);
+    textSize(16);
+    text(words[j], 10, 150);
     
 }
 
@@ -40,4 +42,3 @@ function mousePressed(){
     }
 }
 
-//This is a joke Mr. Budi is actually a great teacher who we are lucky to have work here.
